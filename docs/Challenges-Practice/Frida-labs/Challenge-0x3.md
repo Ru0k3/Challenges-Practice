@@ -1,6 +1,6 @@
 Opening the app we can see a click me button if we use frida trace we can see whats happening behind the button
  `frida-trace -U -j '`*`com.ad2001.frida0x3`*`!*' 'Frida 0x3'`
-<unknown url="" alt="embed"/>
+<embed src=""></embed>
 it is activating onclick button in main activity if we explore it using jadx we can see that there is if else condition to load the flag
 ![](./images/Challenge-0x3-img-0.png)
 if the conditions meet we will get the flag
